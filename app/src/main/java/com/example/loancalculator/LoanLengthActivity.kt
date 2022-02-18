@@ -35,8 +35,8 @@ class LoanLengthActivity : AppCompatActivity() {
 
     if (loanModelObject != null && loanDisplayAmt!=null && loanInterestRt!=null) {
 
-      tvLoanDisplayAmt.text = "Loan Amount: $loanDisplayAmt"
-      tvLoanInterestDisplayVal.text = "Interest Rate: $loanInterestRt"
+      tvLoanDisplayAmt.text = "Loan Amount: $$loanDisplayAmt"
+      tvLoanInterestDisplayVal.text = "Interest Rate: $loanInterestRt%"
 
       tv5YrPosition.text = getString(R.string.five_year)
       tv10YrPosition.text = getString(R.string.ten_year)
