@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
     if (etLoanAmount.text.toString().isEmpty() || etLoanAmount.text.toString()< 0.toString()) {
       isValid = false
-    } else if (etInterestRate.text.toString().isEmpty() || etLoanAmount.text.toString()< 0.toString()) {
+    } else if (etInterestRate.text.toString().isEmpty() || etInterestRate.text.toString()< 0.toString()) {
       isValid = false
     }
 
